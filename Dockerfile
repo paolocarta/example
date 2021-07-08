@@ -5,7 +5,7 @@ RUN apk add --no-cache bash
 RUN apk add --no-cache curl
 
 WORKDIR /usr/bin/
-COPY /bin/app .
+COPY /hello/hello .
 
 EXPOSE 8080
 EXPOSE 9090
